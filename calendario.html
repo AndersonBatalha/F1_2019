@@ -1,0 +1,1068 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/bootstrap.css" type='text/css'>
+        <link rel="stylesheet" href="css/style.css" type='text/css'>
+        <link rel="stylesheet" href="css/flag-icon-css-master/css/flag-icon.css" type='text/css'>
+        <link rel="icon" sizes="16x16" href="img/favicon-16x16.png"/>
+        <title>Calendário</title>
+        <style>
+            .card {
+                height: 425px;
+            }
+
+            .card-text {
+                height: 50px;
+            }
+            .card-img-top {
+                height: 65%;
+                width: 100%;
+            }
+        </style>
+    </head>
+
+    <body>
+        
+        <div class="container-fluid">
+        
+            <nav class="navbar navbar-expand-lg">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/f1_logo.svg" alt="F1 Logo" class='border-0'>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <ion-icon name="menu"></ion-icon>                
+                </button>        
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class='nav-item'>
+                            <a class="nav-link mr-3" href='equipes.html'>Equipes</a>
+                        </li>
+                        <li class='nav-item'>                            
+                            <a class="nav-link mr-3" href='pilotos.html'>Pilotos</a>
+                        </li>
+                        <li class='nav-item'>                            
+                            <a class="nav-link mr-3" href='calendario.html'>Calendário</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class="nav-link mr-3" href='classificacao.html'>Classificação</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class="nav-link mr-3" href='cadastro.html'>Cadastre-se</a>
+                        </li>
+                        <li class='nav-item'>    
+                            <a class="nav-link mr-3" href='login.html'>Login</a>
+                        </li>    
+                    </ul>
+                </div>
+            </nav>
+        
+            <div class="row justify-content-center">
+                <div class="col-12 mt-4 mb-2">
+                    <h3 class="text-center display-6">Calendário</h2>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento j">
+                        <img src="img/corridas/australia.jpg" alt="Austrália" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">14 - 17/03</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 ROLEX AUSTRALIAN GRAND PRIX 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-australia">DETALHES</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento">
+                        <img src="img/corridas/bahrein.jpg" alt="Bahrein" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">29 - 31/03</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 GULF AIR BAHRAIN GRAND PRIX 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-bahrein">DETALHES</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/china.jpg" alt="China" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">12 - 14/04</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 HEINEKEN CHINESE GRAND PRIX 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-china">DETALHES</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/azerbaijao.jpg" alt="Azerbaijão" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">26 - 28/04</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 AZERBAIJAN GRAND PRIX 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-azerbaijao">DETALHES</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento">
+                        <img src="img/corridas/espanha.jpg" alt="Espanha" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">10 - 12/05</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 EMIRATES GRAN PREMIO DE ESPAÑA 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-espanha">DETALHES</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento">
+                        <img src="img/corridas/monaco.jpg" alt="Mônaco" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">23 - 26/05</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 GRAND PRIX DE MONACO 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-monaco">DETALHES</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/canada.jpg" alt="Canadá" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">07 - 09/06</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 PIRELLI GRAND PRIX DU CANADA 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-canada">DETALHES</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/frança.jpg" alt="França" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">21 - 23/06</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 GRAND PRIX DE FRANCE 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-franca">DETALHES</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/austria.jpg" alt="Áustria" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">28 - 30/06</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 MYWORLD GROSSER PREIS VON ÖSTERREICH 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-austria">DETALHES</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/inglaterra.jpg" alt="Inglaterra" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">12 - 14/07</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 ROLEX BRITISH GRAND PRIX 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-inglaterra">DETALHES</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/alemanha.jpg" alt="Alemanha" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">26 - 28/07</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 MERCEDES-BENZ GROSSER PREIS VON DEUTSCHLAND 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-alemanha">DETALHES</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/hungria.jpg" alt="Hungria" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">02 - 04/08</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 MAGYAR NAGYDÍJ 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-hungria">DETALHES</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/belgica.jpg" alt="Bélgica" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">30/08 - 01/09</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 JOHNNIE WALKER BELGIAN GRAND PRIX 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-belgica">DETALHES</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/italia.jpg" alt="Itália" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">06 - 08/09</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 GRAN PREMIO HEINEKEN D'ITALIA 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-italia">DETALHES</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/singapura.jpg" alt="Singapura" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">20 - 22/09</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 SINGAPORE AIRLINES SINGAPORE GRAND PRIX 2019</strong>
+                           </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-singapura">DETALHES</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/russia.jpg" alt="Rússia" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">27 - 29/09</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 VTB RUSSIAN GRAND PRIX 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-russia">DETALHES</button>
+                    </div>
+               </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/japao.jpg" alt="Japão" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">11 - 13/10</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 JAPANESE GRAND PRIX 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-japao">DETALHES</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/mexico.jpg" alt="México" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">25 - 27/10</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 GRAN PREMIO DE MÉXICO 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-mexico">DETALHES</button>
+                    </div>
+                </div>
+
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/eua.jpg" alt="Estados Unidos" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">01 - 03/11</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 UNITED STATES GRAND PRIX 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-eua">DETALHES</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/brasil.jpg" alt="Brasil" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">15 - 17/11</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 HEINEKEN GRANDE PRÊMIO DO BRASIL 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-brasil">DETALHES</button>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-4 col-xl-4 px-2">
+                    <div class="card border-0 evento"> 
+                        <img src="img/corridas/emirados arabes.jpg" alt="UAE" class="card-img-top mb-3 img-fluid img-thumbnail">
+                        <small class="card-subtitle">29/11 - 01/12</small>
+                        <div class='mb-2'>
+                            <p class="card-text">
+                                <strong>FORMULA 1 ETIHAD AIRWAYS ABU DHABI GRAND PRIX 2019</strong>
+                            </p>
+                        </div>
+                        <button type="button" class="btn" data-toggle="modal" data-target="#gp-emirados_arabes">DETALHES</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-australia" tabindex="-1" role="dialog" aria-labelledby="gp-australia" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-au m-3"></span>AUSTRÁLIA
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Albert Park</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Melbourne, Austrália</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1996</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:24.125 (Michael Schumacher, 2004)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>5.303 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>58</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>307.574 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Australia.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-bahrein" tabindex="-1" role="dialog" aria-labelledby="gp-bahrein" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-bh m-3"></span>BAHREIN
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito Internacional do Bahrein</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Sahkir, Bahrein</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>2004</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:31.447 (Pedro de La Rosa, 2005)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>5.412 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>57</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>308.238 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Bahrain.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-china" tabindex="-1" role="dialog" aria-labelledby="gp-china" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-cn m-3"></span>CHINA
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito Internacional de Xangai</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Xangai, China</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>2004</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:31.447 (Pedro de La Rosa, 2005)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>5.412 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>57</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>308.238 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Bahrain.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-azerbaijao" tabindex="-1" role="dialog" aria-labelledby="gp-azerbaijao" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-az m-3"></span>AZERBAIJÃO
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito Urbano de Baku</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Baku, Azerbaijão</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>2016</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:43.441 (Sebastian Vettel, 2017)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>6.003 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>51</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>306.049 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Azerbaijan.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-bahrein" tabindex="-1" role="dialog" aria-labelledby="gp-bahrein" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-bh m-3"></span>BAHREIN
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito Internacional do Bahrein</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Sahkir, Bahrein</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>2004</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:32.238 (Michael Schumacher, 2004)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>5.451 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>56</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>305.066 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/China.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-espanha" tabindex="-1" role="dialog" aria-labelledby="gp-espanha" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-es m-3"></span>ESPANHA
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito de Barcelona-Catalunha</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Montmeló, Barcelona (Espanha)</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1991</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:18.441 (Daniel Ricciardo, 2018)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>4.655 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>66</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>307.104 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Spain.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-monaco" tabindex="-1" role="dialog" aria-labelledby="gp-monaco" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-mc m-3"></span>MÔNACO
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito de Mônaco</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Monte Carlo, Mônaco</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1950</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:14.260 (Max Verstappen, 2018)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>3.337 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>78</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>260.286 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Monaco.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-canada" tabindex="-1" role="dialog" aria-labelledby="gp-canada" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-ca m-3"></span>CANADÁ
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito Gilles Villeneuve</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Montreal, Canadá</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1978</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:13.622 (Rubens Barrichello, 2004)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>4.361 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>57</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>305.270 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Canada.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="gp-franca" tabindex="-1" role="dialog" aria-labelledby="gp-franca" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-fr m-3"></span>FRANÇA
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito de Paul Ricard</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Le Castellet, França</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1971</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:34.225 (Valtteri Bottas, 2018)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>5.842 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>53</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>309.690 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/france.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="gp-austria" tabindex="-1" role="dialog" aria-labelledby="gp-austria" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-at m-3"></span>ÁUSTRIA
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Red Bull Ring</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Spielberg, Áustria</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1970</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:06.957 (Kimi Räikkönen, 2018)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>4.318 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>71</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>306.452 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Austria.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-inglaterra" tabindex="-1" role="dialog" aria-labelledby="gp-inglaterra" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-gb m-3"></span>INGLATERRA
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito de Silverstone</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Silverstone, Inglaterra</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1950</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:30.621 (Lewis Hamilton, 2017)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>5.891 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>52</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>306.198 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Great_Britain.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-alemanha" tabindex="-1" role="dialog" aria-labelledby="gp-alemanha" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-de m-3"></span>ALEMANHA
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Hockenheimring</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Hockenheim, Alemanha</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1970</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:13.780 (Kimi Räikkönen, 2004)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>4.574 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>67</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>306.458 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Germany.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-hungria" tabindex="-1" role="dialog" aria-labelledby="gp-hungria" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-hu m-3"></span>HUNGRIA
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Hungaroing</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Mogyoród, Hungria</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1986</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:19.071 (Michael Schumacher, 2004)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>4.381 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>70</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>306.63 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Hungary.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          <div class="modal fade" id="gp-belgica" tabindex="-1" role="dialog" aria-labelledby="gp-belgica" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-be m-3"></span>BÉLGICA
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito de Spa-Francorchamps</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Stavelot, Bélgica</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1950</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:46.286 (Valtteri Bottas, 2018)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>7.004 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>44</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>308.052 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Belgium.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-italia" tabindex="-1" role="dialog" aria-labelledby="gp-italia" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-it m-3"></span>ITÁLIA
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Autódromo Nacional de Monza</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Monza, Itália</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1950</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:21.046 (Rubens Barrichello, 2004)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>5.793 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>53</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>306.72 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Italy.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          <div class="modal fade" id="gp-singapura" tabindex="-1" role="dialog" aria-labelledby="gp-singapura" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-sg m-3"></span>SINGAPURA
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito Urbano de Marina Bay</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Marina Bay, Singapura</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>2008</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:41.905 (Kevin Magnussen, 2018)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>5.063 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>61</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>308.706 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Singapore.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          <div class="modal fade" id="gp-russia" tabindex="-1" role="dialog" aria-labelledby="gp-russia" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-ru m-3"></span>RÚSSIA
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Autódromo de Sochi</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Sochi, Rússia</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>2014</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:35.861 (Valtteri Bottas, 2018)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>5.848 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>53</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>309.745 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Russia.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+          <div class="modal fade" id="gp-japao" tabindex="-1" role="dialog" aria-labelledby="gp-japao" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-jp m-3"></span>JAPÃO
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito de Suzuka</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Suzuka, Japão</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1987</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:31.540 (Kimi Räikkönen, 2005)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>5.807 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>53</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>307.471 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Japan.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-mexico" tabindex="-1" role="dialog" aria-labelledby="gp-mexico" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-mx m-3"></span>MÉXICO
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Autódromo Hermanos Rodríguez</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Cidade do México, México</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1963</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:18.741 (Valtteri Bottas, 2018)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>4.304 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>71</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>305.354 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Mexico.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-eua" tabindex="-1" role="dialog" aria-labelledby="gp-eua" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-us m-3"></span>ESTADOS UNIDOS
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito das Américas</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Austin (Texas)</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>2012</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:37.392 (Lewis Hamilton, 2018)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>5.513 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>56</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>308.405 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/United_States.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="modal fade" id="gp-brasil" tabindex="-1" role="dialog" aria-labelledby="gp-brasil" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-br m-3"></span>BRASIL
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Autódromo de Interlagos</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>São Paulo, Brasil</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>1973</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:10.540 (Valtteri Bottas, 2018)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>4.309 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>71</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>305.909 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Brazil.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+           <div class="modal fade" id="gp-emirados_arabes" tabindex="-1" role="dialog" aria-labelledby="gp-emirados_arabes" aria-hidden="true">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="titulo">                            
+                                <span class="flag-icon flag-icon-ae m-3"></span>EMIRADOS ÁRABES UNIDOS
+                            </h5>       
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <h4 class="display-5 pb-3">Circuito de Yas Marina</h4>
+                            <h6 class="font-weight-bold">Localização</h6>
+                            <p>Abu Dhabi, Emirados Árabes Unidos</p>
+                            <h6 class="font-weight-bold">Primeira corrida</h6>
+                            <p>2009</p>
+                            <h6 class="font-weight-bold">Recorde da pista</h6>
+                            <p>1:40.279 (Sebastian Vettel, 2009)</p>
+                            <h6 class="font-weight-bold">Percurso</h6>
+                            <p>5.554 km</p>
+                            <h6 class="font-weight-bold">Número de voltas</h6>
+                            <p>55</p>
+                            <h6 class="font-weight-bold">Distância total</h6>
+                            <p>305.355 km</p>
+
+                            <small><a href="https://www.formula1.com/en/racing/2019/Abu_Dhabi.html" target="_blank">Ver mais informações</a></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                                                                                            
+            <footer>
+                <div class="row align-items-center justify-content-center" id='rodape'>
+                    <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12 mx-1">
+                        <p class="text-center">
+                            © 2003-2019 Formula One World Championship Limited
+                        </p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mx-1">
+                        <div class="row justify-content-center">
+                            <h1>
+                                <a href="https://www.facebook.com/Formula1" class="text-white text-decoration-none" target="_blank">
+                                    <ion-icon class="px-2" name='logo-facebook'></ion-icon>
+                                </a>
+                                <a href="https://twitter.com/f1" class="text-white text-decoration-none" target="_blank">
+                                    <ion-icon class="px-2" name='logo-twitter'></ion-icon>
+                                </a>
+                                <a href="https://www.instagram.com/f1/" class="text-white text-decoration-none" target="_blank">
+                                    <ion-icon class="px-2" name='logo-instagram'></ion-icon>
+                                </a>
+                                <a href="https://www.youtube.com/F1" class="text-white text-decoration-none" target="_blank">
+                                    <ion-icon class="px-2" name='logo-youtube'></ion-icon>
+                                </a>        
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
+                
+    </body>
+</html>

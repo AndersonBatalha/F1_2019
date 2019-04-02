@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/bootstrap.css" type='text/css'>
+        <link rel="stylesheet" href="css/style.css" type='text/css'>
+        <link rel="stylesheet" href="css/flag-icon-css-master/css/flag-icon.css" type='text/css'>
+        <link rel="icon" sizes="16x16" href="img/favicon-16x16.png"/>
+        <title>Equipes</title>
+    </head>
+
+    <body>
+        
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/f1_logo.svg" alt="F1 Logo" class='border-0'>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <ion-icon name="menu"></ion-icon>                
+                </button>        
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class='nav-item'>
+                            <a class="nav-link mr-3" href='equipes.html'>Equipes</a>
+                        </li>
+                        <li class='nav-item'>                            
+                            <a class="nav-link mr-3" href='pilotos.html'>Pilotos</a>
+                        </li>
+                        <li class='nav-item'>                            
+                            <a class="nav-link mr-3" href='calendario.html'>Calendário</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class="nav-link mr-3" href='classificacao.html'>Classificação</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class="nav-link mr-3" href='cadastro.html'>Cadastre-se</a>
+                        </li>
+                        <li class='nav-item'>    
+                            <a class="nav-link mr-3" href='login.html'>Login</a>
+                        </li>    
+                    </ul>
+                </div>
+            </nav>
+                    
+        
+            <div class="row justify-content-center mx-4 my-4">
+                <div class="col-12 my-4">
+                    <h2 class="text-center display-6">Equipes da temporada 2019</h2>
+                </div>
+                <div class="col-sm-12 col-md-8 col-lg-10 col-xl-10">
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <a type="button" data-toggle="modal"  data-target="#mercedes">
+                                    <img src="img/carros/mercedes.jpg" class="d-block w-100" alt="Mercedes">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a type="button" data-toggle="modal" data-target="#ferrari">
+                                    <img src="img/carros/ferrari.jpg" class="d-block w-100" alt="Ferrari">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a type="button" data-toggle="modal" data-target="#red_bull">
+                                    <img src="img/carros/red_bull.jpg" class="d-block w-100" alt="Red Bull">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a type="button" data-toggle="modal" data-target="#haas">
+                                    <img src="img/carros/haas.jpg" class="d-block w-100" alt="Haas">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a type="button" data-toggle="modal" data-target="#renault">
+                                    <img src="img/carros/renault.jpg" class="d-block w-100" alt="Renault">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a type="button" data-toggle="modal" data-target="#alfa_romeo">
+                                    <img src="img/carros/alfa_romeo.jpg" class="d-block w-100" alt="Alfa Romeo">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a type="button" data-toggle="modal" data-target="#racing_point">
+                                    <img src="img/carros/racing_point.jpg" class="d-block w-100" alt="Racing Point">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a type="button" data-toggle="modal" data-target="#toro_rosso">
+                                    <img src="img/carros/toro_rosso.jpg" class="d-block w-100" alt="Toro Rosso">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a type="button" data-toggle="modal" data-target="#mclaren">
+                                    <img src="img/carros/mclaren.jpg" class="d-block w-100" alt="McLaren">
+                                </a>
+                            </div>
+                            <div class="carousel-item">
+                                <a type="button" data-toggle="modal" data-target="#williams">
+                                    <img src="img/carros/williams.jpg" class="d-block w-100" alt="Williams">
+                                </a>
+                            </div>                              
+            
+                        </div>
+                        
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+
+                    </div>                
+                </div>
+
+                <div class="modal fade" id="mercedes" tabindex="-1" role="dialog" aria-labelledby="mercedes" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-uppercase" id="titulo">
+                                    <span class="flag-icon flag-icon-de m-3"></span>Mercedes
+                                </h5>       
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/equipes/mercedes.jpg" alt="Mercedes" class="img-fluid rounded mx-auto d-block mb-2 h-50 w-50">
+                                <h4 class="display-5 pb-3">Mercedes AMG Petronas Motorsport</h4>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Sede</h6>
+                                        <p>Brackley, Reino Unido</p>
+                                        <h6 class="font-weight-bold">Chassis</h6>
+                                        <p>W10</p>
+                                        <h6 class="font-weight-bold">Unidade de potência</h6>
+                                        <p>Mercedes</p>
+                                        <h6 class="font-weight-bold">Primeiro campeonato</h6>
+                                        <p>1970</p>            
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Títulos mundiais</h6>
+                                        <p>5</p>
+                                        <h6 class="font-weight-bold">Melhor resultado</h6>
+                                        <p>1º (x79)</p>
+                                        <h6 class="font-weight-bold">Pole positions</h6>
+                                        <p>94</p>
+                                        <h6 class="font-weight-bold">Voltas mais rápidas</h6>
+                                        <p>58</p>            
+                                    </div>
+                                </div>
+
+                                <small><a href="https://www.formula1.com/en/teams/Mercedes.html" target="_blank">Ver mais informações</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                    
+                <div class="modal fade" id="ferrari" tabindex="-1" role="dialog" aria-labelledby="ferrari" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-uppercase" id="titulo">
+                                    <span class="flag-icon flag-icon-it m-3"></span>Ferrari
+                                </h5>       
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/equipes/ferrari.jpg" alt="Ferrari" class="img-fluid rounded mx-auto d-block mb-2 h-50 w-50">
+                                <h4 class="display-5 pb-3">Scuderia Ferrari Mission Winnow</h4>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Sede</h6>
+                                        <p>Maranello, Itália</p>
+                                        <h6 class="font-weight-bold">Chassis</h6>
+                                        <p>SF90</p>
+                                        <h6 class="font-weight-bold">Unidade de potência</h6>
+                                        <p>Ferrari</p>
+                                        <h6 class="font-weight-bold">Primeiro campeonato</h6>
+                                        <p>1950</p>            
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Títulos mundiais</h6>
+                                        <p>16</p>
+                                        <h6 class="font-weight-bold">Melhor resultado</h6>
+                                        <p>1º (x236)</p>
+                                        <h6 class="font-weight-bold">Pole positions</h6>
+                                        <p>215</p>
+                                        <h6 class="font-weight-bold">Voltas mais rápidas</h6>
+                                        <p>247</p>            
+                                    </div>
+                                </div>
+
+                                <small><a href="https://www.formula1.com/en/teams/Ferrari.html" target="_blank">Ver mais informações</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="red_bull" tabindex="-1" role="dialog" aria-labelledby="red_bull" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-uppercase" id="titulo">
+                                    <span class="flag-icon flag-icon-at m-3"></span>Red Bull
+                                </h5>       
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/equipes/red_bull.jpg" alt="Red Bull" class="img-fluid rounded mx-auto d-block mb-2 h-50 w-50">
+                                <h4 class="display-5 pb-3">Aston Martin Red Bull Racing</h4>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Sede</h6>
+                                        <p>Milton Keynes, Reino Unido</p>
+                                        <h6 class="font-weight-bold">Chassis</h6>
+                                        <p>RB15</p>
+                                        <h6 class="font-weight-bold">Unidade de potência</h6>
+                                        <p>Honda</p>
+                                        <h6 class="font-weight-bold">Primeiro campeonato</h6>
+                                        <p>1997</p>            
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Títulos mundiais</h6>
+                                        <p>4</p>
+                                        <h6 class="font-weight-bold">Melhor resultado</h6>
+                                        <p>1º (x59)</p>
+                                        <h6 class="font-weight-bold">Pole positions</h6>
+                                        <p>60</p>
+                                        <h6 class="font-weight-bold">Voltas mais rápidas</h6>
+                                        <p>60</p>            
+                                    </div>
+                                </div>
+
+                                <small><a href="https://www.formula1.com/en/teams/Red-Bull.html" target="_blank">Ver mais informações</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="haas" tabindex="-1" role="dialog" aria-labelledby="haas" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-uppercase" id="titulo">
+                                    <span class="flag-icon flag-icon-us m-3"></span>Haas
+                                </h5>       
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/equipes/haas.png" alt="Haas" class="img-fluid rounded mx-auto d-block mb-2 h-50 w-50">
+                                <h4 class="display-5 pb-3">Rich Energy Haas F1 Team</h4>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Sede</h6>
+                                        <p>Kannapolis, Estados Unidos</p>
+                                        <h6 class="font-weight-bold">Chassis</h6>
+                                        <p>N/D</p>
+                                        <h6 class="font-weight-bold">Unidade de potência</h6>
+                                        <p>Ferrari</p>
+                                        <h6 class="font-weight-bold">Primeiro campeonato</h6>
+                                        <p>2016</p>            
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Títulos mundiais</h6>
+                                        <p>0</p>
+                                        <h6 class="font-weight-bold">Melhor resultado</h6>
+                                        <p>4º (x1)</p>
+                                        <h6 class="font-weight-bold">Pole positions</h6>
+                                        <p>0</p>
+                                        <h6 class="font-weight-bold">Voltas mais rápidas</h6>
+                                        <p>1</p>            
+                                    </div>
+                                </div>
+
+                                <small><a href="https://www.formula1.com/en/teams/Haas.html" target="_blank">Ver mais informações</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="renault" tabindex="-1" role="dialog" aria-labelledby="renault" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-uppercase" id="titulo">
+                                    <span class="flag-icon flag-icon-fr m-3"></span>Renault
+                                </h5>       
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/equipes/renault.jpg" alt="Renault" class="img-fluid rounded mx-auto d-block mb-2 h-50 w-50">
+                                <h4 class="display-5 pb-3">Renault F1 Team</h4>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Sede</h6>
+                                        <p>Enstone, Reino Unido</p>
+                                        <h6 class="font-weight-bold">Chassis</h6>
+                                        <p>R.S.19</p>
+                                        <h6 class="font-weight-bold">Unidade de potência</h6>
+                                        <p>Renault</p>
+                                        <h6 class="font-weight-bold">Primeiro campeonato</h6>
+                                        <p>1986</p>            
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Títulos mundiais</h6>
+                                        <p>2</p>
+                                        <h6 class="font-weight-bold">Melhor resultado</h6>
+                                        <p>1º (x20)</p>
+                                        <h6 class="font-weight-bold">Pole positions</h6>
+                                        <p>20</p>
+                                        <h6 class="font-weight-bold">Voltas mais rápidas</h6>
+                                        <p>13</p>            
+                                    </div>
+                                </div>
+
+                                <small><a href="https://www.formula1.com/en/teams/Renault.html" target="_blank">Ver mais informações</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modal fade" id="alfa_romeo" tabindex="-1" role="dialog" aria-labelledby="alfa_romeo" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-uppercase" id="titulo">
+                                    <span class="flag-icon flag-icon-ch m-3"></span>Alfa Romeo
+                                </h5>       
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/equipes/alfa_romeo.png" alt="Mercedes" class="img-fluid rounded mx-auto d-block mb-2 h-50 w-50">
+                                <h4 class="display-5 pb-3">Alfa Romeo Racing</h4>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Sede</h6>
+                                        <p>Hinwil, Suíça</p>
+                                        <h6 class="font-weight-bold">Chassis</h6>
+                                        <p>C38</p>
+                                        <h6 class="font-weight-bold">Unidade de potência</h6>
+                                        <p>Ferrari</p>
+                                        <h6 class="font-weight-bold">Primeiro campeonato</h6>
+                                        <p>1993</p>            
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Títulos mundiais</h6>
+                                        <p>0</p>
+                                        <h6 class="font-weight-bold">Melhor resultado</h6>
+                                        <p>1º (x1)</p>
+                                        <h6 class="font-weight-bold">Pole positions</h6>
+                                        <p>1</p>
+                                        <h6 class="font-weight-bold">Voltas mais rápidas</h6>
+                                        <p>5</p>            
+                                    </div>
+                                </div>
+
+                                <small><a href="https://www.formula1.com/en/teams/Alfa-Romeo.html" target="_blank">Ver mais informações</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="racing_point" tabindex="-1" role="dialog" aria-labelledby="racing_point" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-uppercase" id="titulo">
+                                    <span class="flag-icon flag-icon-gb m-3"></span>Racing Point
+                                </h5>       
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/equipes/racing_point.jpg" alt="Racing Point" class="img-fluid rounded mx-auto d-block mb-2 h-50 w-50">
+                                <h4 class="display-5 pb-3">SportPesa Racing Point F1 Team</h4>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Sede</h6>
+                                        <p>Silverstone, Reino Unido</p>
+                                        <h6 class="font-weight-bold">Chassis</h6>
+                                        <p>RP19</p>
+                                        <h6 class="font-weight-bold">Unidade de potência</h6>
+                                        <p>BWT Mercedes</p>
+                                        <h6 class="font-weight-bold">Primeiro campeonato</h6>
+                                        <p>2019</p>            
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Títulos mundiais</h6>
+                                        <p>0</p>
+                                        <h6 class="font-weight-bold">Melhor resultado</h6>
+                                        <p>9º (x1)</p>
+                                        <h6 class="font-weight-bold">Pole positions</h6>
+                                        <p>0</p>
+                                        <h6 class="font-weight-bold">Voltas mais rápidas</h6>
+                                        <p>0</p>            
+                                    </div>
+                                </div>
+
+                                <small><a href="https://www.formula1.com/en/teams/Racing-Point.html" target="_blank">Ver mais informações</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="toro_rosso" tabindex="-1" role="dialog" aria-labelledby="toro_rosso" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-uppercase" id="titulo">
+                                    <span class="flag-icon flag-icon-it m-3"></span>Toro Rosso
+                                </h5>       
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/equipes/toro_rosso.jpg" alt="Toro Rosso" class="img-fluid rounded mx-auto d-block mb-2 h-50 w-50">
+                                <h4 class="display-5 pb-3">Red Bull Toro Rosso Honda</h4>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Sede</h6>
+                                        <p>Faenza, Itália</p>
+                                        <h6 class="font-weight-bold">Chassis</h6>
+                                        <p>STR14</p>
+                                        <h6 class="font-weight-bold">Unidade de potência</h6>
+                                        <p>Honda</p>
+                                        <h6 class="font-weight-bold">Primeiro campeonato</h6>
+                                        <p>1985</p>            
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Títulos mundiais</h6>
+                                        <p>0</p>
+                                        <h6 class="font-weight-bold">Melhor resultado</h6>
+                                        <p>1º (x1)</p>
+                                        <h6 class="font-weight-bold">Pole positions</h6>
+                                        <p>1</p>
+                                        <h6 class="font-weight-bold">Voltas mais rápidas</h6>
+                                        <p>1</p>            
+                                    </div>
+                                </div>
+
+                                <small><a href="https://www.formula1.com/en/teams/Toro-Rosso.html" target="_blank">Ver mais informações</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="modal fade" id="mclaren" tabindex="-1" role="dialog" aria-labelledby="mclaren" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-uppercase" id="titulo">
+                                    <span class="flag-icon flag-icon-gb m-3"></span>Mclaren
+                                </h5>       
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">                            
+                                <img src="img/equipes/mclaren.jpg" alt="McLaren" class="img-fluid rounded mx-auto d-block mb-2 h-50 w-50">
+                                <h4 class="display-5 pb-3">McLaren F1 Team</h4>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Sede</h6>
+                                        <p>Woking, Reino Unido</p>
+                                        <h6 class="font-weight-bold">Chassis</h6>
+                                        <p>MCL34</p>
+                                        <h6 class="font-weight-bold">Unidade de potência</h6>
+                                        <p>Renault</p>
+                                        <h6 class="font-weight-bold">Primeiro campeonato</h6>
+                                        <p>1966</p>            
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Títulos mundiais</h6>
+                                        <p>8</p>
+                                        <h6 class="font-weight-bold">Melhor resultado</h6>
+                                        <p>1º (x182)</p>
+                                        <h6 class="font-weight-bold">Pole positions</h6>
+                                        <p>155</p>
+                                        <h6 class="font-weight-bold">Voltas mais rápidas</h6>
+                                        <p>155</p>            
+                                    </div>
+                                </div>
+
+                                <small><a href="https://www.formula1.com/en/teams/McLaren.html" target="_blank">Ver mais informações</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade" id="williams" tabindex="-1" role="dialog" aria-labelledby="williams" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title text-uppercase" id="titulo">
+                                    <span class="flag-icon flag-icon-gb m-3"></span>Williams
+                                </h5>       
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="img/equipes/williams.png" alt="Williams" class="img-fluid rounded mx-auto d-block mb-2 h-50 w-50">
+                                <h4 class="display-5 pb-3">ROKiT Williams Racing</h4>
+                                <div class="row">
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Sede</h6>
+                                        <p>Grove, Reino Unido</p>
+                                        <h6 class="font-weight-bold">Chassis</h6>
+                                        <p>FW42</p>
+                                        <h6 class="font-weight-bold">Unidade de potência</h6>
+                                        <p>Mercedes</p>
+                                        <h6 class="font-weight-bold">Primeiro campeonato</h6>
+                                        <p>1978</p>            
+                                    </div>
+                                    <div class="col">
+                                        <h6 class="font-weight-bold">Títulos mundiais</h6>
+                                        <p>9</p>
+                                        <h6 class="font-weight-bold">Melhor resultado</h6>
+                                        <p>1º (x114)</p>
+                                        <h6 class="font-weight-bold">Pole positions</h6>
+                                        <p>129</p>
+                                        <h6 class="font-weight-bold">Voltas mais rápidas</h6>
+                                        <p>133</p>            
+                                    </div>
+                                </div>
+
+                                <small><a href="https://www.formula1.com/en/teams/Williams.html" target="_blank">Ver mais informações</a></small>
+                            </div>
+                        </div>
+                    </div>
+                </div>                                                                         
+            </div>
+
+            <footer>
+                <div class="row align-items-center justify-content-center" id='rodape'>
+                    <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12 mx-1">
+                        <p class="text-center">
+                            © 2003-2019 Formula One World Championship Limited
+                        </p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mx-1">
+                        <div class="row justify-content-center">
+                            <h1>
+                                <a href="https://www.facebook.com/Formula1" class="text-white text-decoration-none" target="_blank">
+                                    <ion-icon class="px-2" name='logo-facebook'></ion-icon>
+                                </a>
+                                <a href="https://twitter.com/f1" class="text-white text-decoration-none" target="_blank">
+                                    <ion-icon class="px-2" name='logo-twitter'></ion-icon>
+                                </a>
+                                <a href="https://www.instagram.com/f1/" class="text-white text-decoration-none" target="_blank">
+                                    <ion-icon class="px-2" name='logo-instagram'></ion-icon>
+                                </a>
+                                <a href="https://www.youtube.com/F1" class="text-white text-decoration-none" target="_blank">
+                                    <ion-icon class="px-2" name='logo-youtube'></ion-icon>
+                                </a>        
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
+                
+    </body>
+</html>

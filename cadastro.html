@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="css/bootstrap.css" type='text/css'>
+        <link rel="stylesheet" href="css/style.css" type='text/css'>
+        <link rel="icon" sizes="16x16" href="img/favicon-16x16.png"/>
+        <title>Cadastre-se</title>
+    </head>
+
+    <body>
+
+        <div class="container-fluid">
+
+            <nav class="navbar navbar-expand-lg">
+                <a href="index.html" class="navbar-brand">
+                    <img src="img/f1_logo.svg" alt="F1 Logo" class='border-0'>
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                    <ion-icon name="menu"></ion-icon>                
+                </button>        
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                        <li class='nav-item'>
+                            <a class="nav-link mr-3" href='equipes.html'>Equipes</a>
+                        </li>
+                        <li class='nav-item'>                            
+                            <a class="nav-link mr-3" href='pilotos.html'>Pilotos</a>
+                        </li>
+                        <li class='nav-item'>                            
+                            <a class="nav-link mr-3" href='calendario.html'>Calendário</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class="nav-link mr-3" href='classificacao.html'>Classificação</a>
+                        </li>
+                        <li class='nav-item'>
+                            <a class="nav-link mr-3" href='cadastro.html'>Cadastre-se</a>
+                        </li>
+                        <li class='nav-item'>    
+                            <a class="nav-link mr-3" href='login.html'>Login</a>
+                        </li>    
+                    </ul>
+                </div>
+            </nav>
+                    
+            <div class="row justify-content-center my-4">
+                <div class="col-sm-12 col-md-10 col-lg-8 col-xl-8">
+                    <h1 class="display-4">Cadastre-se</h1>
+                    <form method="POST">
+                        <div class="form-group my-1">
+                            <label for="nome">Nome completo</label>
+                            <input type="text" class="form-control" id='nome' placeholder="Nome">
+                        </div>
+                        <div class="form-group my-1">
+                            <label for="email">Endereço de email</label>
+                            <div class="input-group-prepend">
+                                <span class="input-group-text">@</span>
+                                <input type="email" class="form-control" id='email' placeholder="nome@exemplo.com">    
+                            </div>
+                        </div>
+                        <div class="form-group my-1">
+                            <label for="data_nasc">Data de nascimento</label>
+                            <input type="date" class="form-control" id='data_nasc' placeholder="Data de nascimento">    
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col-sm-12 col-md-6 col-xl-4 col-lg-4 my-1">
+                                    <label for="data_nasc">Endereço</label>
+                                    <input type="text" class="form-control" id='data_nasc' placeholder="Endereço">        
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-xl-4 col-lg-4 my-1">
+                                    <label for="numero">Número</label>
+                                    <input type="number" class="form-control" id='numero' placeholder="Número">            
+                                </div>
+                                <div class="col-sm-12 col-md-12 col-xl-4 col-lg-4 mt-1">
+                                    <label for="complemento">Complemento</label>
+                                    <input type="text" class="form-control" id='complemento'>                
+                                </div>        
+                            </div>
+                        </div>                        
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6">
+                                    <label for="bairro">Bairro</label>
+                                    <input type="text" class="form-control" id='bairro'>                    
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-1">
+                                    <label for="cidade">Cidade</label>
+                                    <input type="text" class="form-control" id='cidade'>                    
+                                </div>
+                            </div>
+                        </div>                        
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-1">
+                                    <label for="estado">Estado</label>
+                                    <input type="text" class="form-control" id='estado'>                    
+                                </div>
+                                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 mt-1">
+                                    <label for="pais">País</label>
+                                    <input type="text" class="form-control" id='pais'>                    
+                                </div>    
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <div class="form-row">
+                                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6">
+                                    <label for="senha">Senha</label>
+                                    <input type="password" class="form-control" placeholder="Senha">
+                                </div>    
+                                <div class="col-sm-12 col-md-6 col-xl-6 col-lg-6 my-1">
+                                    <label for="senha">Confirme a senha</label>
+                                    <input type="password" class="form-control" placeholder="Senha">
+                                </div>    
+                            </div>            
+                        </div>
+                        <button type="submit" class="btn btn-block btn-lg">Inscreva-se</button>
+                    </form>
+                </div>
+            </div>
+
+            <footer>
+                <div class="row align-items-center justify-content-center" id='rodape'>
+                    <div class="col-xl-7 col-lg-7 col-md-6 col-sm-12 mx-1">
+                        <p class="text-center">
+                            © 2003-2019 Formula One World Championship Limited
+                        </p>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 mx-1">
+                        <div class="row justify-content-center">
+                            <h1>
+                                <a href="https://www.facebook.com/Formula1" class="text-white text-decoration-none" target="_blank">
+                                    <ion-icon class="px-2" name='logo-facebook'></ion-icon>
+                                </a>
+                                <a href="https://twitter.com/f1" class="text-white text-decoration-none" target="_blank">
+                                    <ion-icon class="px-2" name='logo-twitter'></ion-icon>
+                                </a>
+                                <a href="https://www.instagram.com/f1/" class="text-white text-decoration-none" target="_blank">
+                                    <ion-icon class="px-2" name='logo-instagram'></ion-icon>
+                                </a>
+                                <a href="https://www.youtube.com/F1" class="text-white text-decoration-none" target="_blank">
+                                    <ion-icon class="px-2" name='logo-youtube'></ion-icon>
+                                </a>        
+                            </h1>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+        
+        <script src="js/jquery-3.3.1.slim.min.js"></script>
+        <script src="js/popper.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="https://unpkg.com/ionicons@4.5.5/dist/ionicons.js"></script>
+
+    </body>
+</html>
